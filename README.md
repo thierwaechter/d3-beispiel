@@ -1,2 +1,3 @@
-# vvd3t
-Leeres Projekt für eine Website mit Vue, Vuetify, D3 und Tailwind
+# D3 Beispielseite
+
+Leider ohne cooles CSS oder sonst was :-(
