@@ -1,2 +1,2 @@
-# D3 Beispielseite
-Projekkt für das DataViz CAS 2022/23
+# DataViz CAS 2022/23
+Diese Animation entsteht im Rahmen des CAS Data Visualization an der BFH
