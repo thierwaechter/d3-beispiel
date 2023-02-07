@@ -1,3 +1,2 @@
 # D3 Beispielseite
-
-Leider ohne cooles CSS oder sonst was :-(
+Projekkt für das DataViz CAS 2022/23
