@@ -1,5 +1,6 @@
 html, body {
-  height:100%;
+  width: auto;
+  height: 100%;
   margin: 0;
 }
 
@@ -9,5 +10,5 @@ body{
 }
 
 #bodymovin {
-  width: 100%;
+  max-height: 90%;
 }
