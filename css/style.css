@@ -1,8 +1,8 @@
-html, body {
+/* html, body {
   width: auto;
   height: 100%;
   margin: 0;
-}
+} */
 
 body{
   display: grid;
@@ -10,5 +10,5 @@ body{
 }
 
 #bodymovin {
-  max-height: 90%;
+  max-height: 100%;
 }
