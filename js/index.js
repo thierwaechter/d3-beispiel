@@ -4,7 +4,4 @@ var animation = bodymovin.loadAnimation({
   loop: true,
   autoplay: true,
   path: './data/data.json'
-  rendererSettings: {
-    preserveAspectRatio: 'xMidYMid slice'
-  }
 })
