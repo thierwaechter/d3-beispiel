@@ -33,9 +33,9 @@ kreuzbu.addEventListener('click', () => {
 })
 
 datenbu.addEventListener('click', () => {
-  animation.goToAndPlay(1450, 100);
+  animation.goToAndPlay(1600, 100);
 })
 
 minbu.addEventListener('click', () => {
-  animation.goToAndPlay(3510, 100);
+  animation.goToAndPlay(3610, 100);
 })
