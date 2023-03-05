@@ -2,13 +2,13 @@
   width: auto;
   height: 100%;
   margin: 0;
-} */
+} 
 
 body{
   display: grid;
   justify-items: center;
 }
-
+*/
 #bodymovin {
   max-height: 90%;
 }
