@@ -10,32 +10,32 @@
   <link rel="stylesheet" type="text/css" href="./css/style.css" />
 </head>
 
-<body >
+<body class="h-screen w-auto">
 
-<!--<script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
-<!--<lottie-player src="./data/data.json" background="transparent" speed="1" style="width: auto; height: 1700px;" loop controls autoplay></lottie-player>  -->
+  <div id="bodymovin" class="h-5/6 w-fit mx-auto"></div>
 
- <div id="bodymovin" class="aspect-[10/16] absolute top-0"></div>
-
- <div class="inline-flex absolute bottom-0">
-  <button id="pausenbutton" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-1 border border-gray-200 rounded shadow">
-    <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
-      <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 010 1.954l-7.108 4.061A1.125 1.125 0 013 16.811z" />
-    </svg>    
-  </button>
-  <button id="beginbutton" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold text-xs py-1 px-1 border border-gray-200 rounded shadow">
-    Intro
-   </button>
-  <button id="kreuzbutton" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold text-xs py-1 px-1 border border-gray-200 rounded shadow">
-   Kreuzung
-  </button>
-  <button id="datenbutton" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold text-xs py-1 px-1 border border-gray-200 rounded shadow">
-    Daten
-   </button>
-   <button id="minutenbutton" class="bg-white hover:bg-gray-100 text-gray-800 font-semibold text-xs py-1 px-1 border border-gray-200 rounded shadow">
-    Minute
-   </button>
+<div class="h-1/6 mx-auto">
+  <div class="inline-flex  w-screen">
+    <button id="pausenbutton" class=" h-20 w-1/5 px-6 bg-white hover:bg-gray-100 text-gray-800 font-semibold py-1 px-1 border border-gray-200 rounded shadow">
+      <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+        <path stroke-linecap="round" stroke-linejoin="round" d="M21 7.5V18M15 7.5V18M3 16.811V8.69c0-.864.933-1.406 1.683-.977l7.108 4.061a1.125 1.125 0 010 1.954l-7.108 4.061A1.125 1.125 0 013 16.811z" />
+      </svg>    
+    </button>
+    <button id="beginbutton" class="h-20 w-1/5 bg-white hover:bg-gray-100 text-gray-800 font-semibold text-sm py-1 px-1 border border-gray-200 rounded shadow">
+      Intro
+     </button>
+    <button id="kreuzbutton" class="h-20 w-1/5 bg-white hover:bg-gray-100 text-gray-800 font-semibold text-sm py-1 px-1 border border-gray-200 rounded shadow">
+     Kreuzung
+    </button>
+    <button id="datenbutton" class="h-20 w-1/5 bg-white hover:bg-gray-100 text-gray-800 font-semibold text-sm py-1 px-1 border border-gray-200 rounded shadow">
+      Daten
+     </button>
+     <button id="minutenbutton" class="h-20 w-1/5 bg-white hover:bg-gray-100 text-gray-800 font-semibold text-sm py-1 px-1 border border-gray-200 rounded shadow">
+      Minute
+     </button>
+  </div>
 </div>
+
 <script src="https://cdnjs.cloudflare.com/ajax/libs/bodymovin/5.10.2/lottie.min.js" integrity="sha512-fTTVSuY9tLP+l/6c6vWz7uAQqd1rq3Q/GyKBN2jOZvJSLC5RjggSdboIFL1ox09/Ezx/AKwcv/xnDeYN9+iDDA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
 
 <script src="./js/index.js"></script> 
@@ -44,3 +44,4 @@
 </body>
 
 </html>
+
