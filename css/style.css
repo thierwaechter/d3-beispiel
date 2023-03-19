@@ -8,8 +8,9 @@ body{
   display: grid;
   justify-items: center;
 }
-
+*/
 #bodymovin {
+<<<<<<< HEAD
   width: auto;
   object-fit: cover;
   height: 90%; 
@@ -27,3 +28,7 @@ button {
 }
 
 */
+=======
+  max-height: 90%;
+}
+>>>>>>> 416f2d9fd4ddd0ed796f847017a74eff718ae8c2
